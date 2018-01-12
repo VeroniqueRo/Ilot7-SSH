@@ -16,7 +16,7 @@ function connection(){
     try 
     {
       // connexion à MySQL
-      $bdd = new PDO('mysql:host=localhost;dbname=machineacafe;charset=utf8', 'Groot66', 'TuTeCalmes!');  
+      $bdd = new PDO('mysql:host=localhost;dbname=machineacafe;charset=utf8', 'ilot7', 'TuTeCalmes!');  
     }
     catch (Exception $e)
     {
